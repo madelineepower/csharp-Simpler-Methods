@@ -16,6 +16,13 @@ namespace expression_members
             Console.WriteLine($"The {bug1.Species}'s prey: {bug1.PreyList()}");
             Console.WriteLine($"The {bug2.Species}'s predators: {bug2.PredatorList()}");
             Console.WriteLine($"The {bug2.Species}'s prey: {bug2.PreyList()}");
+
+            string response = bug1.Eat("Aphid");
+            string response2 = bug2.Eat("french fries");
+
+            Console.WriteLine(response);
+            Console.WriteLine(response2);
+
         }
     }
 }
