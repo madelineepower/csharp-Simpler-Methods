@@ -22,6 +22,9 @@ namespace expression_members
 
             Console.WriteLine(response);
             Console.WriteLine(response2);
+            Console.WriteLine("--------------------");
+            Console.WriteLine(bug1.FormalName);
+            Console.WriteLine(bug2.FormalName);
 
         }
     }
